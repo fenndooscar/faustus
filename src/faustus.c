@@ -3433,10 +3433,10 @@ static const struct dmi_system_id atw_dmi_list[] __initconst = {
 	},
 	{
 		.callback = dmi_check_callback,
-		.ident = "FA506IH",
+		.ident = "FA506HL",
 		.matches = {
 			DMI_MATCH(DMI_SYS_VENDOR, "ASUSTeK COMPUTER INC."),
-			DMI_MATCH(DMI_PRODUCT_NAME, "FA506IH"),
+			DMI_MATCH(DMI_PRODUCT_NAME, "FA506HL"),
 		},
 	},
 	{}
